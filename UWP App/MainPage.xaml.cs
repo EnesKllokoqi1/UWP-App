@@ -142,7 +142,7 @@ namespace UWP_App
             }
             else
             {
-                await SpeakAsync($"Please enter a valid number");
+                await SpeakAsync($"Please enter a valid First Name");
             }
         }
         private async Task SpeakAsync(string text)
